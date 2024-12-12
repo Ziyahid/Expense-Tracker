@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Expense Tracker</h1>
+    <div class="container">
+
+        <div class="header">
+            <label for="">Category:</label>
+            <select name="" id="category">
+                <option value=""></option>
+                <option value="Food & Beverage">Food & Beverage</option>
+                <option value="Rent">Rent</option>
+                <option value="Rent">Transport</option>
+                <option value="Other">Others</option>
+            </select>
+
+            <label for="">Amount:</label>
+            <input type="number" id="amount">
+
+            <label for="">Date:</label>
+            <input type="date" id="date">
+
+            <button id="add">Add</button>
+        </div>
+
+        <div class="expense-list">
+            <h1>Expense List</h1>
+
+            <form action="">
+                <table >
+
+                    <tr>
+                        <th>Category</th>
+                        <th>Amount</th>
+                        <th>Date</th>
+                        <th></th>
+                    </tr>
+
+                    <tbody id="table-body">
+
+                    </tbody>
+
+
+                    <tfoot>
+
+                    <tr id="t-row">
+                        <td style="text-align: left;font-size: 25px;
+                        
+                        "><strong>Total:</strong></td>
+                        <td id="t-cell">0.00</td>
+                        
+
+                    </tr>
+
+                </tfoot>
+
+
+                </table>
+            </form>
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
